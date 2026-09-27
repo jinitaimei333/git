@@ -1,0 +1,27 @@
+# 参考清单（当前均未安装，按需取消注释后安装）：
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+#
+# ---- Web / API 服务 ----
+# fastapi>=0.115
+# uvicorn[standard]>=0.32
+# pydantic>=2.9
+# pydantic-settings>=2.6
+#
+# ---- 大模型 / Agent ----
+# openai>=1.54
+# langchain>=0.3
+# langchain-community>=0.3
+# chromadb>=0.5            # 本地向量库，做 RAG 用
+# tiktoken>=0.8
+# streamlit>=1.39          # 快速搭 Agent 演示界面
+#
+# ---- 数据处理 / 爬虫 ----
+# pandas>=2.2
+# numpy>=2.0
+# requests>=2.32
+# beautifulsoup4>=4.12
+#
+# ---- 工程工具 ----
+# python-dotenv>=1.0
+# httpx>=0.27
+# pytest>=8.3

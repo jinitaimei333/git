@@ -1,0 +1,24 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境变量与密钥（API Key 不要提交）
+.env
+.env.local
+
+# Notebook
+.ipynb_checkpoints/
+
+# 测试与工具缓存
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 日志与数据
+*.log
+*.sqlite3
